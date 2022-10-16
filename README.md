@@ -4,13 +4,16 @@ First exercise with GitHub für SP in MBDS at URV
 ### Git commands
 
 #### git clone git@github.com:lea-rothoerl/scientificprogramming_ex.git
-Uses the ssh interface of GitHub to clnoe the online repository into a local git repository
+Uses the ssh interface of GitHub to clone the online repository into a local git repository OR
+
+#### git clone https://github.com/lea-rothoerl/scientificprogramming_ex.git
+To clone the repository to your local computer using HTTPS
 
 #### git branch new_branch
 Within the local repository creates a new branch 
 
 #### git checkout new_branch
-Cheksout the newly created branch, so that any changes made, will be made to that branch instead of the main branch
+Checksout the newly created branch, so that any changes made, will be made to that branch instead of the main branch
 
 #### git add local_file
 Stages the changes made to local_file or if newly created, adds that file
