@@ -13,17 +13,17 @@ To clone the repository to your local computer using HTTPS
 Within the local repository creates a new branch 
 
 #### git checkout new_branch
-Checksout the newly created branch, so that any changes made, will be made to that branch instead of the main branch
+Checks out the newly created branch, so that any changes made will be made to that branch instead of the main branch
 
 #### git add local_file
 Stages the changes made to local_file or if newly created, adds that file
 
 #### git commit -m "this is my first commit"
-Commits the staged changes to the new_branch with a commit message. 
+Commits the staged changes to the new_branch with a commit message
 
 #### git push origin new_branch
-The committed changes get pushed to the original remote repository which was cloned originally. 
-If new_branch already exists, the changes get made to that branch, else it is created for that purpose
+The committed changes are pushed to the original remote repository which was cloned originally. 
+If new_branch already exists, the changes are made to that branch, else it is created for that purpose
 
 ### Merge
 We merged the different branches through the GitHub website interface using a pull request.
